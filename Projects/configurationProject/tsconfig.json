@@ -1,0 +1,35 @@
+{
+    "compilerOptions": 
+    {      
+        /* Basic Options */
+      "target": "es6",
+      "module": "es2015",
+      "lib": [ "dom",  "es6",  "dom.iterable",   "scripthost"  ],
+      
+      /* Specify library files to be included in the compilation. */ 
+      "sourceMap": false,                              
+      "outDir": "./dist",                                                                   
+      "removeComments": true,                                
+      "noEmitOnError": false,
+  
+      /* Strict Type-Checking Options */
+      "strict": true,                           
+  
+      /* Additional Checks */
+      "noUnusedLocals": false,             
+      "noUnusedParameters": false,   
+      "noImplicitReturns": true,    
+  
+      /* Module Resolution Options */
+      "esModuleInterop": true,               
+            
+      /* Source Map Options */
+      // "sourceRoot": "", "mapRoot": "",     "inlineSourceMap": true, "inlineSources": true,  
+  
+      /* Experimental Options */       
+       "experimentalDecorators": true,    // "emitDecoratorMetadata": true, 
+    },
+    "exclude": [
+      "node_modules" // would be the default
+    ]
+}
